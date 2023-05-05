@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Passion+One|Special+Elite&display=swap');
+
+body {
+    background-color:#0B0346;
+    color: white;
+    font-family: 'Special Elite', cursive;
+    text-align:center;
+    font-size: 60px;
+    }
+
+/* bottun */
+#btn {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  text-align: center;
+  font-size: 30px;
+  padding: 100px 10;
+  
+  position: relative; 
+  border-radius: 25px
+}
+#btn:hover {
+  opacity: 0.1;
+}
+
+/* each container */
+.first, .second, .third {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* each word */
+.word {
+  font-size: 20px;
+  text-align: center;
+  padding: 0.4em 0.2em;
+  margin: auto 1.6em;
+}
+
+
+
+/* text rotate */
+#first1, #second2, #third3 {
+   transform: rotate(7deg);
+}
+#first3 {
+   transform: rotate(-7deg);
+}
+#second1 {
+   transform: rotate(-3deg);
+}
+#second5 {
+   transform: rotate(5deg);
+}
+
